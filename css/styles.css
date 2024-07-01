@@ -272,12 +272,14 @@ li{
 .portfolio-item
 {
     text-align: center;
+    
 }
 .portfolio-list
 {
     display: flex;
     padding-top: 72px;
     gap: 24px;
+    
 }
 .portfolio-title 
 {
@@ -287,6 +289,13 @@ li{
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+}
+.portfolio-text-container 
+{
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    
 }
 .portfolio-subtitle
 {
