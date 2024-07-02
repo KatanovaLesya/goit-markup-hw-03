@@ -109,11 +109,6 @@ img
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-   
-    
-   
 }
 .nav-link
 {
@@ -121,8 +116,8 @@ img
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-   
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -413,7 +408,7 @@ img
 }
 
 .footer-container {
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     align-items: center;
 }
