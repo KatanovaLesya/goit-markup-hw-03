@@ -365,6 +365,7 @@ img
 }
 .cellar-logo
 {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -373,16 +374,9 @@ img
     font-size: 18px;
     letter-spacing: 0.03em;
     color: #4d5ae5;
-    margin-bottom: 15px;
-    
-   
-    
+    margin-bottom: 16px;    
 }
-.cellar-logo
-{
-    display: inline-block;
-    margin-bottom: 16px;
-}
+
 .cellar-logo-studio
 {
     color: #f4f4fd;
