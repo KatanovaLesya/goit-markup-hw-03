@@ -363,13 +363,12 @@ img
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.container a
+.cellar .container a
 {
     display: inline-block;
 }
 .cellar-logo
 {
-    display: inline-block;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -384,9 +383,6 @@ img
 .cellar-logo-studio
 {
     color: #f4f4fd;
-    display: inline-block;
-    
-    
 }
 .cellar-text
 {
@@ -405,13 +401,6 @@ img
     flex-direction: column;
     align-items: flex-start;
 }
-
-.footer-container {
-    display: inline-block;
-    flex-direction: row;
-    align-items: center;
-}
-
 
 .team-image
 {
