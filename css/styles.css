@@ -53,8 +53,6 @@ header{
     display: flex;
     align-items: center;
     flex-grow: 1;  
-    padding-top: 24px;
-    padding-bottom: 24px;
 
 }
 h1, h2, h3, h4, h5, h6, p
@@ -111,6 +109,8 @@ img
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
    
     
    
@@ -166,18 +166,20 @@ img
 .hero
 {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero .container
 {
     display: flex;
     flex-direction: column;
-    padding-top: 188px;
+   
     margin: 0 auto;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 188px;
+  
    
     
 }
@@ -261,7 +263,7 @@ img
     background-color: #FFFFFF;
     padding-top: 32px;
     margin: 0;
-    border-radius: 0 0 4px 4px;
+    
     padding-bottom: 32px;
     
 }
@@ -280,11 +282,13 @@ img
 {
     display: flex;
     gap:24px;
+    border-radius: 0 0 4px 4px;
 }
 .team-item
 {
     text-align: center;
     margin-right:0;
+    border-radius: 0 0 4px 4px;
     
 }
 .team-subtitle
@@ -294,7 +298,7 @@ img
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-text
@@ -339,8 +343,7 @@ img
 .portfolio-text-container 
 {
     border: 1px solid #e7e9fc;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
     border-top: none;
 }
 .portfolio-subtitle
@@ -380,7 +383,7 @@ img
    
     
 }
-.cellar a 
+.cellar-logo
 {
     display: inline-block;
     margin-bottom: 16px;
